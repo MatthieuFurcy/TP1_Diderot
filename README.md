@@ -78,4 +78,4 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce proje
 5. Ouvrez une Pull Request.
 
 ## Licence
-Ce projet est sous licence MIT. Voir le fichier LICENSE pour plus de détails.  
+Ce projet est disponible à qui bon le semble.
