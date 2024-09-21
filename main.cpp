@@ -62,7 +62,6 @@ int main()
     cout << "Merci de saisir le nombre de caractère de votre mot de passe (entre 1 et 100) : \n";
     cin >> nbCar;
 
-    // Vérification de la saisie
     /* Vérification de la saisie
    Cette boucle while vérifie si la saisie est invalide ou si le nombre est en dehors de la plage autorisée (1 à 100).
    - cin.fail() vérifie si la saisie précédente a échoué (par exemple, si l'utilisateur a saisi une lettre au lieu d'un nombre).
@@ -72,6 +71,7 @@ int main()
    - cin.clear() efface les erreurs de cin pour permettre une nouvelle saisie.
    - cin.ignore(numeric_limits<streamsize>::max(), '\n')
    ignore les caractères restants dans le buffer jusqu'à la fin de la ligne, ce qui permet de nettoyer l'entrée pour la prochaine saisie.*/
+    
     while (cin.fail() || nbCar < 1 || nbCar > 100)
     {
         cin.clear();
